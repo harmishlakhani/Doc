@@ -1,0 +1,19 @@
+Git Autocomplete:
+
+Step 1:
+Get git-complete.bash script
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+Step 2:
+add the following lines to your .bash_profile
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+Step 3:
+source ~/.bash_profile
+
+Now you can type git command and use TAB to make it auto complete
+
+Links:
+https://github.com/git/git/tree/master/contrib/completion
+http://code-worrier.com/blog/autocomplete-git/
